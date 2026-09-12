@@ -1,0 +1,58 @@
+# .dockerignore file - Excludes files from Docker context
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+target/
+build/
+dist/
+*.jar
+*.war
+*.ear
+
+# Maven files
+.m2/
+*.pom
+pom.xml.tag
+pom.xml.releaseBackup
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation
+docs/
+*.md
+README.md
+LICENSE
+
+# OS files
+.classpath
+.project
+.settings/
+*.class
+*.log
+*.pid
+*.seed
+
+# Node modules (if frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+*.properties.local
